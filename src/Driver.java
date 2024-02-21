@@ -1,7 +1,9 @@
+import controllers.Playlist;
 
 public class Driver {
 
     //TODO Define an object of the Playlist here.  It should be declared private.
+    private Playlist playlist = new Playlist();
 
     public static void main(String[] args) {
         new Driver();
